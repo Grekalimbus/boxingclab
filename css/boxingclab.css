@@ -223,7 +223,7 @@
 }
 
 .section__three{
-	padding: 0 0 50px 0;
+	padding: 0 0 200px 0;
 }
 .boxing__textik{
 	color: #2b2b2b;
@@ -272,6 +272,29 @@
 	color: #A36B00;
 	padding-top: 18px;
 }
+
+.footer{
+	background-color: #161616;
+	padding: 20px 0 20px 0px;
+}
+.flex__footer{
+	display: flex;
+}
+
+.img__metka{}
+
+.footer__info{
+	font-weight: 900;
+	font-size: 20px;
+	line-height: 24px;
+	color: #FFFFFF;
+	display: flex;
+	justify-content: space-between;
+	flex: 1 1 auto;
+	margin-left: 35px;
+	align-items: flex-end;
+}
+
 
 
 
