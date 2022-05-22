@@ -159,4 +159,66 @@
 	padding: 0 10px 0 0;
 }
 
+.section__too{
+	background: linear-gradient(138.51deg, #000000 12.81%, rgba(36, 35, 35, 0) 195.47%);
+	padding: 0 0 80px 0;
+}
+.title__text_box{
+	font-weight: 900;
+	font-size: 40px;
+	line-height: 49px;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 70px 0 0 0;
+}
+.title__text_box::before{
+	content: url(../img/Vector\ \(6\).png);
+	padding: 0 15px 0 0;
+}
+.title__text_box::after{
+	content: url(../img/Vector\ \(7\).png);
+	padding: 0 0 0 15px;
+}
+
+.flex__card{
+	display: flex;
+	justify-content: space-between;
+}
+
+.card{
+	width: 370px;
+	height: 497px;
+	background: #FFB31F;
+	border-radius: 33px;
+	margin: 135px 0 0 0;
+}
+.card p:hover{
+	color: cornflowerblue;
+}
+.OZ{
+	font-weight: 900;
+	font-size: 40px;
+	line-height: 49px;
+	color: #750202;
+	text-align: center;
+	padding-top: 25px;
+}
+.image__perch{
+	background: rgba(0, 0, 0, 0.2);
+	border-radius: 40px;
+	width: 331px;
+	height: 297px;
+	margin: 64px 0 0 18px;
+}
+.image__perch img{
+	margin: 8px 0 0 57px;
+}
+.price{
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 29px;
+	color: #750202;
+	text-align: center;
+	margin: 20px 0 0 0;
+}
 
