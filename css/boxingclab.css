@@ -267,13 +267,11 @@
 }
 .flex__droby{
 	display: flex;
-	border: 1px solid #000;
 	flex-wrap: wrap;
 		
 }
 .foto__and__text{
 	display: flex;
-	border: 1px solid #000;
 	flex: 0 1 50%;	
 	padding: 20px 20px 20px 20px;
 	
@@ -285,7 +283,31 @@
 	flex: 0 0 258px;
 		
 }
-.boxer__photo img{
+.tyson_img img{
+	margin: 12px 0 0 10px;
+}
+.gatti_box img{
+	margin: 20px 0 0 0;
+}
+
+.muga_img img{
+	margin: 37px 0 0 0;
+	padding-left: 30px;
+}
+.jony_img img{
+	margin: 29px 0 0 30px;
+}
+.tyson_text_info{
+	line-height: 36px;
+}
+.gatti_box_info{
+	line-height: 36px;
+}
+.muga_text{
+	line-height: 36px;
+}
+.jony_text{
+	line-height: 36px;
 }
 
 .info__text__boxer{
@@ -301,7 +323,6 @@
 .smal__info{
 	font-weight: 900;
 	font-size: 14px;
-	line-height: 26px;
 	color: #A36B00;
 	padding-top: 18px;
 }
