@@ -33,12 +33,18 @@
  h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
  /*--------------------*/
 
+/*
+ font-family: 'Anton', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
 .wrapper{
 	background: linear-gradient(292.42deg, #000000 44.68%, #E47005 98.69%);
 	min-height: 100%;
 	overflow: hidden;
 	display: flex;
   	flex-direction: column;
+	  
 }
 .container{
 	width: 1170px;
@@ -68,6 +74,7 @@
 	line-height: 34px;
 	margin: 0 0 0 15px;
 	color: #faa214f4;
+	font-family: 'Anton', sans-serif;
 	
 }
 .menu{
@@ -81,6 +88,7 @@
 	line-height: 17px;
 	color: #f29b0fe7;
 	text-shadow: 8px 4px  rgba(174, 96, 6, 0.237);
+	font-family: 'Montserrat', sans-serif;
 }
 .phone{
 	display: flex;
@@ -93,6 +101,7 @@
 	line-height: 17px;
 	color: #f29b0fe7;
 	text-shadow: 8px 4px  rgba(174, 96, 6, 0.237);
+	font-family: 'Anton', sans-serif;
 	
 }
 
@@ -113,11 +122,13 @@
 	line-height: 49px;
 	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.58);
 	padding: 0 0 15px 0;
+	font-family: 'Montserrat', sans-serif;
 }
 .text__bottom{
 	font-weight: 400;
 	font-size: 40px;
 	line-height: 60px;
+	font-family: 'Open Sans', sans-serif;
 }
 .klik__span{
 	margin-top: 25px;
@@ -129,6 +140,7 @@
 	border-radius: 54px;
 	position: relative;
 	z-index: 3;
+	
 }
 .text__span{
 	display: inline-block;
@@ -136,8 +148,9 @@
 	font-size: 18px;
 	line-height: 22px;
 	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
 
-	padding: 30px 0 30px 67px;
+	padding: 30px 0 30px 54px;
 }
 .klik__span:hover{
 	background: linear-gradient(132.18deg, #331901 44.16%, rgba(227, 227, 227, 0.76) 92.4%);
@@ -152,6 +165,7 @@
 	font-weight: 900;
 	font-size: 16px;
 	line-height: 20px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .info__spisok__tovar li{
@@ -186,12 +200,14 @@
 .section__too{
 	background: linear-gradient(138.51deg, #000000 12.81%, rgba(36, 35, 35, 0) 195.47%);
 	padding: 0 0 80px 0;
+	font-family: 'Montserrat', sans-serif;
 }
 .title__text_box{
 	font-weight: 900;
 	font-size: 40px;
 	line-height: 49px;
 	text-align: center;
+	font-family: 'Montserrat', sans-serif;
 	
 	padding: 70px 0 0 0;
 	color: #f29b0fe7;
@@ -254,6 +270,7 @@
 
 .section__three{
 	padding: 0 0 200px 0;
+	font-family: 'Montserrat', sans-serif;
 }
 .boxing__textik{
 	color: #2b2b2b;
@@ -330,6 +347,7 @@
 .footer{
 	background-color: #161616;
 	padding: 20px 0 20px 0px;
+	font-family: 'Montserrat', sans-serif;
 }
 .flex__footer{
 	display: flex;
