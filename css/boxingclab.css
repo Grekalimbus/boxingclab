@@ -252,7 +252,7 @@
 	display: flex;
 	border: 1px solid #000;
 	flex-wrap: wrap;
-	
+		
 }
 .foto__and__text{
 	display: flex;
@@ -269,7 +269,8 @@
 		
 }
 .boxer__photo img{
-	}
+}
+
 .info__text__boxer{
 	flex: 1 1 auto;
 	padding: 10px 0 0 20px;
