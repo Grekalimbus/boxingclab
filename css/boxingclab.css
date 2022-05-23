@@ -34,7 +34,7 @@
  /*--------------------*/
 
 .wrapper{
-	background: linear-gradient(95.6deg, #E0AF00 2.2%, #E47005 90.66%);
+	background: linear-gradient(292.42deg, #000000 44.68%, #E47005 98.69%);
 	min-height: 100%;
 	overflow: hidden;
 	display: flex;
@@ -58,6 +58,7 @@
 
 .image{
 	padding: 0 0 7px 0;
+	
 }
 .title__logo{
 	display: flex;
@@ -65,8 +66,8 @@
 	font-weight: 900;
 	font-size: 28px;
 	line-height: 34px;
-	color: #432000;
 	margin: 0 0 0 15px;
+	color: #faa214f4;
 	
 }
 .menu{
@@ -78,6 +79,8 @@
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 17px;
+	color: #f29b0fe7;
+	text-shadow: 8px 4px  rgba(174, 96, 6, 0.237);
 }
 .phone{
 	display: flex;
@@ -88,6 +91,9 @@
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 17px;
+	color: #f29b0fe7;
+	text-shadow: 8px 4px  rgba(174, 96, 6, 0.237);
+	
 }
 
 .content__header__center{
@@ -159,6 +165,7 @@
 	padding: 0 10px 0 0;
 }
 
+
 .section__too{
 	background: linear-gradient(138.51deg, #000000 12.81%, rgba(36, 35, 35, 0) 195.47%);
 	padding: 0 0 80px 0;
@@ -168,8 +175,14 @@
 	font-size: 40px;
 	line-height: 49px;
 	text-align: center;
-	color: #FFFFFF;
+	
 	padding: 70px 0 0 0;
+	color: #f29b0fe7;
+	}
+.title__text_box:hover{
+	color: #ff9d00f9;
+	text-shadow: 0px 3px  rgba(174, 96, 6, 0.237);
+	
 }
 .title__text_box::before{
 	content: url(../img/Vector\ \(6\).png);
