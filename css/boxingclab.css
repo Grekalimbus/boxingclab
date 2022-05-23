@@ -127,6 +127,8 @@
 	background: linear-gradient(131.09deg, #000000 36.37%, #522300 96.38%);
 	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.44);
 	border-radius: 54px;
+	position: relative;
+	z-index: 3;
 }
 .text__span{
 	display: inline-block;
@@ -165,6 +167,21 @@
 	padding: 0 10px 0 0;
 }
 
+.muha img{
+	position: relative;
+	z-index: 2;
+ }
+ .svet{
+	position: absolute;
+	z-index: 1;
+	top: 300px;
+	left: 800px;
+	background: #EA6200;
+	filter: blur(200px);
+	width: 500px;
+	height: 700px;
+	flex: 0 0 auto;
+ }
 
 .section__too{
 	background: linear-gradient(138.51deg, #000000 12.81%, rgba(36, 35, 35, 0) 195.47%);
